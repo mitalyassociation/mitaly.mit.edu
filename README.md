@@ -8,7 +8,7 @@ Built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getbootstrap.c
 
 ## TODO
 
-- [ ] Fix image on first page. Add dark background
+- [x] Fix image on first page. Add dark background
 - [ ] Add more stuff on first page
   - [ ] Add about description
   - [ ] Add board members pictures
