@@ -17,30 +17,41 @@ layout: default
 <!--     <h1 class="display-4">{{ site.title }}</h1> -->
 <!--     <p class="lead">{{ site.subtitle }}</p> -->
 <!-- </div> -->
-<div class="home py-5 bg-light">
+
+<!-- <div class="home py-5 bg-light"> -->
+<!--         <div class="container"> -->
+<!--                 <div class="row"> -->
+<!--                         <div class="col"> -->
+<!--  -->
+<!--                                 {%- if site.title -%} -->
+<!--                                 <h1>{{ site.title }}</h1> -->
+<!--                                 {%- endif -%} -->
+<!--  -->
+<!--                                 {{ content }} -->
+<!--                         </div> -->
+<!--                 </div> -->
+<!--         </div> -->
+<!-- </div> -->
+<!--  -->
+<div class="board py-5 bg-light">
 	<div class="container">
 		<div class="row">
 			<div class="col">
-
-				{%- if site.title -%}
-				<h1>{{ site.title }}</h1>
-				{%- endif -%}
-
-				{{ content }}
+				<h1 class="mb-4">The Board</h1>
 			</div>
 		</div>
-	</div>
-</div>
-
-<div class="home py-5 bg-light">
-	<div class="container">
 		<div class="row">
+			{% for member in site.data.board %}
 			<div class="col-lg-4">
-				<img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-				<h2>Heading</h2>
-				<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-				<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+				{% if member.website %} <a href="{{member.website}}">{% endif %}
+				<img class="rounded-circle mb-2" src="/assets/images/board/{{ member.name | downcase | replace: ' ', '_'}}.jpg" alt="Generic placeholder image" width="140" height="140">
+				{% if member.website %} </a> {% endif %}
+				<h5 class="mb-1">{{member.name}}</h5>
+				<p class="my-1"><b>{{member.role}}</b></p>
+				<p class="my-0">{{member.position}}</p>
+				<p class="mb-4"><i>{{member.topic}}</i></p>
 			</div><!-- /.col-lg-4 -->
+			{% endfor %}
 		</div>
 	</div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Info for newcomers
+title: Newcomers
 permalink: /newcomers/
 group: "navigation"
 order: 3
