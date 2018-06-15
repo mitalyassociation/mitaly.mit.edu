@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+
+@import "mitaly/variables";
+
 @import "bootstrap";
 
-// Import partials.
+// Import customizations
 @import
   "mitaly/base",
   "mitaly/layout"
