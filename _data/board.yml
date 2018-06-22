@@ -1,0 +1,46 @@
+- name: Gherardo Vita
+  role: Co-President
+  position: PhD Student
+  topic: Theoretical Physics
+
+- name: Gianpaolo Gobbo
+  role: Co-President
+  position: Postdoctoral Researcher
+  topic: Something
+
+- name: Nicola Martino
+  role: PR
+  position: Postdoctoral Researcher
+  topic: Something
+
+- name: Paolo Minelli
+  role: PR
+  position: PhD Student
+  topic: Something
+
+- name: Bianca Giovanardi
+  role: Treasurer
+  position: Postdoctoral Researcher
+  topic: Something
+
+- name: Martina Dal Bello
+  role: Vice-PR
+  position: Postdoctoral Researcher
+  topic: Something
+
+- name: Bartolomeo Stellato
+  role: Vice Fund Raiser
+  position: Postdoctoral Researcher
+  topic: Operations Research
+  website: https://stellato.io/
+
+
+- name: Sara Colombo
+  role: Vice Fund Raiser
+  position: Postdoctoral Researcher
+  topic: Design
+
+- name: Valentina Sumini
+  role: PR
+  position: Postdoctoral Researcher
+  topic: Architecture
