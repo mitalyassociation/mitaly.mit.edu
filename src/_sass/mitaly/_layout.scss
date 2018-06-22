@@ -24,28 +24,34 @@
 //   margin-bottom: 200px;
 // }
 
-html, body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
-}
-.content {
-  flex: 1 0 auto;
-}
-// .footer {
+// html, body {
+//   height: 100%;
+// }
+// body {
+//   display: flex;
+//   flex-direction: column;
+// }
+// .content {
+//   flex: 1 0 auto;
 // }
 
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
 .footer {
-  flex-shrink: 0;
-  // position: absolute;
-  // bottom: 0;
-  // width: 100%;
+  // flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   // [> Set the fixed height of the footer here <]
-  // height: 120px;
-  // line-height: 120px;  // [> Vertically center the text there <]
+  height: 60px;
+  line-height: 60px;  // [> Vertically center the text there <]
   // // background-color: #f5f5f5;
   font-size: .9rem;
 

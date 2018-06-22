@@ -26,6 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 facebook_link: https://www.facebook.com/groups/331532750262318/
+google_analytics: UA-56714542-4
 
 source: src
 destination: _site

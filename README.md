@@ -9,9 +9,9 @@ Built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getbootstrap.c
 ## TODO
 
 - [x] Fix image on first page. Add dark background
-- [ ] Add more stuff on first page
+- [-] Add more stuff on first page
   - [ ] Add about description
-  - [ ] Add board members pictures
+  - [x] Add board members pictures
 - [ ] Add contact us page with form
 - [ ] Add partners page with pictures
 - [ ] Add info for newcomers links
