@@ -1,0 +1,125 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Change colors
+$background-color: #fff;
+$text-color: #333d47;
+$primary-color: #a31f34;
+$lighter-primary-color: mix(#fff, $primary-color, 90%) !default;
+$border-color: #ececec;
+$link-color: $primary-color;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: mix(#000, $link-color, 25%) !default;
+$toggle-button-focus-color: mix(#000, $link-color, 10%) !default;
+$footer-background-color: $background-color;
+
+
+
+// Font sizes (0.8 * mmistakes_size)
+// $doc-font-size: 12.8 !default;
+// $type-size-1: 1.9528em !default; // ~39.056px
+// $type-size-2: 1.553em !default; // ~31.248px
+// $type-size-3: 1.25em !default; // ~25.008px
+// $type-size-4: 1em !default; // ~20px
+// $type-size-5: 0.75em !default; // ~16px
+// $type-size-6: 0.6875em !default; // ~12px
+// $type-size-7: 0.625em !default; // ~11px
+// $type-size-8: 0.5em !default; // ~10px
+
+
+
+// Import Minimal Mistakes theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+// CSS Customizations
+a {
+text-decoration: none;  // Links have no underline by default
+}
+
+// Navbar logo
+.greedy-nav a.navbar-logo-link {
+	padding: 0; // Remove padding to match logo and button
+	margin: 0px;
+}
+.navbar-logo {
+	margin-right: 1rem;
+
+  @include breakpoint($x-large) {
+	  height: 55px;
+  }
+  @include breakpoint($large $x-large) {
+	  height: 50px;
+  }
+  @include breakpoint($medium $large) {
+	  height: 45px;
+  }
+  @include breakpoint(max-width $medium) {
+	  height: 40px;
+  }
+}
+
+
+// Navigation bar lines
+.greedy-nav .visible-links a:before {
+	height: 2px !important;
+}
+
+// Link buttons color
+%tab-focus {
+  /* Default*/
+  outline: thin dotted $toggle-button-focus-color;
+  /* Webkit*/
+  outline: 5px auto $toggle-button-focus-color;
+  outline-offset: -2px;
+}
+
+
+
+// Footer
+.page__footer {
+  border-top: 1px solid $border-color;  // Add border
+  footer {
+  padding-bottom: 1em;
+  }
+}
+.page__footer-copyright {
+    text-align: right;  // Right align footer
+}
+.page__footer-follow {
+  @include breakpoint(max-width $small) {
+      margin-bottom: 1em;
+  }
+a {
+padding-right: 1.5em;
+}
+}
+
+// // Sidebar
+// .sidebar {
+//         opacity: 1;  // Remove gray-ish sidebar
+// }
+
+
+// Tables
+thead {
+    background-color: $background-color;  // White background
+}
+
+
+// Footer links
+.page__footer-follow {
+color: $primary-color;
+}
+
+
+// Homepage image overlay
+// .myhome .page__hero--overlay{
+// padding: 3em 0;
+// }
+
