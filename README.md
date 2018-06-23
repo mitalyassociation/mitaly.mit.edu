@@ -16,3 +16,7 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
 - [ ] Add board page using data and susi grid system
 - [x] Change colors
 - [x] Fix footer with links
+- [ ] Add README details on how to
+  - [ ] Create events
+  - [ ] Add pages
+  - [ ] Change board members
