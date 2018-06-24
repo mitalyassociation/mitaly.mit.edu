@@ -20,7 +20,7 @@ title                    : "MITaly"
 title_separator          : "-"
 name                     : "MITaly"
 description              : "An amazing website."
-url                      : "https://mitaly.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://mitaly.netlify.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mitalyassociation/mitaly.mit.edu" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/mit.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -264,7 +264,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: event
       author_profile: false
       read_time: false
       comments: # true

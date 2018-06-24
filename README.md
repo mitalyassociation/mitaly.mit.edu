@@ -9,11 +9,11 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
 
 # TODO
 
-- [ ] Add events collection
-- [ ] Add events archive with pictures
-  - [ ] Add some events with pics
+- [x] Add events archive with pictures
+  - [ ] Add actual events with pics
 - [ ] Add page info for newcomers
 - [ ] Add board page using data and susi grid system
+- [ ] Add date under each event in events page
 - [x] Change colors
 - [x] Fix footer with links
 - [ ] Add README details on how to
