@@ -39,7 +39,7 @@ $footer-background-color: $background-color;
 
 // CSS Customizations
 a {
-text-decoration: none;  // Links have no underline by default
+	text-decoration: none;  // Links have no underline by default
 }
 
 // Navbar logo
@@ -50,18 +50,18 @@ text-decoration: none;  // Links have no underline by default
 .navbar-logo {
 	margin-right: 1rem;
 
-  @include breakpoint($x-large) {
-	  height: 55px;
-  }
-  @include breakpoint($large $x-large) {
-	  height: 50px;
-  }
-  @include breakpoint($medium $large) {
-	  height: 45px;
-  }
-  @include breakpoint(max-width $medium) {
-	  height: 40px;
-  }
+	@include breakpoint($x-large) {
+		height: 55px;
+	}
+	@include breakpoint($large $x-large) {
+		height: 50px;
+	}
+	@include breakpoint($medium $large) {
+		height: 45px;
+	}
+	@include breakpoint(max-width $medium) {
+		height: 40px;
+	}
 }
 
 
@@ -72,32 +72,33 @@ text-decoration: none;  // Links have no underline by default
 
 // Link buttons color
 %tab-focus {
-  /* Default*/
-  outline: thin dotted $toggle-button-focus-color;
-  /* Webkit*/
-  outline: 5px auto $toggle-button-focus-color;
-  outline-offset: -2px;
+	/* Default*/
+	outline: thin dotted $toggle-button-focus-color;
+	/* Webkit*/
+	outline: 5px auto $toggle-button-focus-color;
+	outline-offset: -2px;
 }
 
 
 
 // Footer
 .page__footer {
-  border-top: 1px solid $border-color;  // Add border
-  footer {
-  padding-bottom: 1em;
-  }
+	border-top: 1px solid $border-color;  // Add border
+	footer {
+		padding-bottom: 1em;
+	}
 }
 .page__footer-copyright {
-    text-align: right;  // Right align footer
+	text-align: right;  // Right align footer
 }
 .page__footer-follow {
-  @include breakpoint(max-width $small) {
-      margin-bottom: 1em;
-  }
-a {
-padding-right: 1.5em;
-}
+	@include breakpoint(max-width $small) {
+		margin-bottom: 1em;
+	}
+	a {
+		padding-right: 1.5em;
+	}
+	color: $primary-color;
 }
 
 // // Sidebar
@@ -108,18 +109,11 @@ padding-right: 1.5em;
 
 // Tables
 thead {
-    background-color: $background-color;  // White background
+	background-color: $background-color;  // White background
 }
 
-
-// Footer links
-.page__footer-follow {
-color: $primary-color;
+// Increase Events header height
+.layout--posts .page__hero--overlay {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
-
-
-// Homepage image overlay
-// .myhome .page__hero--overlay{
-// padding: 3em 0;
-// }
-
