@@ -9,6 +9,9 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
 
 # TODO
 
+- [ ] Change events layout:
+  - [ ] Add date and location under the title
+  - [ ] Change all the events to avoid `overlay_image`
 - [x] Add events archive with pictures
   - [ ] Add actual events with pics
 - [ ] Add page info for newcomers
