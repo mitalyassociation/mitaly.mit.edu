@@ -9,8 +9,9 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
 
 # TODO
 
+
+- [ ] Add latest events
 - [ ] Change events layout:
-  - [ ] Add date and location under the title
   - [ ] Change all the events to avoid `overlay_image`
   - [ ] Remove headers for old events with poor quality pics
 - [ ] Add Google Calendar link in events page
