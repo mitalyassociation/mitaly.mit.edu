@@ -32,8 +32,11 @@ layout: default
           {% endif %}
           {% if page.location %}
 	  <p class="page__meta"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> {{ page.location }}</p>
-        </header>
 	{% endif %}
+          {% if page.date %}
+	  <p class="page__meta"><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%B %d, %Y"}}</p>
+	{% endif %}
+        </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
@@ -54,14 +57,12 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-        {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
+
+      {% if page.facebook_link %}{% include event-link.html %}{% endif %}
+
 
       {% include post_pagination.html %}
     </div>
