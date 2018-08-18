@@ -4,8 +4,7 @@ categories:
   - Cineforum
 excerpt: "\"Il Mostro\" by Roberto Benigni"
 header:
-  overlay_image: /assets/images/events/2017-04-04-evolution_italian_comedy_pt1/header.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image: /assets/images/events/2017-04-04-evolution_italian_comedy_pt1/header.jpg
   teaser: /assets/images/events/2017-04-04-evolution_italian_comedy_pt1/header.jpg
 gallery:
   - url: /assets/images/events/2017-04-04-evolution_italian_comedy_pt1/img1.jpg
