@@ -1,5 +1,5 @@
 ---
-title: Information for newcomers
+title: Information for Newcomers
 layout: single
 toc: true
 permalink: /newcomers/
