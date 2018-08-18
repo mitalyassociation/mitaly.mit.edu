@@ -26,3 +26,7 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
   - [ ] Create events
   - [ ] Add pages
   - [ ] Change board members
+
+  - [ ] Improve homepage
+  	- [ ] Add partners
+	- [ ] Add join us
