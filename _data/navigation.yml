@@ -4,7 +4,7 @@ main:
     url: /events/
   - title: "About"
     url: /about/
-  - title: "Newcomers"
+  - title: "Info for Newcomers"
     url: /newcomers/
   # - title: "Sample Posts"
   #   url: /year-archive/
