@@ -123,3 +123,125 @@ thead {
     margin-top: 0em;
     margin-bottom: 0.5em;
 }
+
+// About page
+.layout--about
+.entries-board{
+	margin-top: 1.5em;
+
+	.grid__item {
+		.archive__item-teaser{
+			max-height: 500px;
+			img {
+				display: block;
+				margin: auto;
+				width: 50%;
+				border-radius: 10%;
+				@include breakpoint($medium) {
+					width: 90%;
+				}
+			}
+		}
+		.archive__item-description {
+			text-align: center;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			.archive__item-role {
+				font-size: 0.8em;
+				font-weight: 700;
+				font-style: italic;
+				margin-top: 0em;
+				margin-bottom: 0.4em;
+			}
+			.archive__item-position {
+				font-size: 0.8em;
+				margin-top: 0em;
+				margin-bottom: 0em;
+			}
+			.archive__item-topic {
+				font-size: 0.8em;
+				margin-top: 0em;
+			}
+	}
+
+
+	}
+
+}
+
+.alumni {
+	clear:both;
+display:block;
+}
+
+
+// .layout--about .page {
+//         // Photo with rounded borders
+//         .home__intro-photo{
+//                 img {
+//                         border-radius: 4px;
+//                 }
+//                 margin-bottom: 2em;
+//         }
+//
+//         .home__intro-description{
+//                 p {
+//                         text-align: justify;
+//                 }
+//         }
+//
+//         // Default for smallest
+//         .home__intro-photo{
+//                 margin-right: 0; [> override margin<]
+//                 clear: both;
+//                 width: span(8 of 12);
+//                 margin-left: span(2 of 12);
+//         }
+//         .home__intro-description {
+//                 clear: none;
+//                 width: span(10 of 12);
+//                 margin-left: span(1 of 12);
+//                 margin-right: span(1 of 12);
+//         }
+//
+//         @include breakpoint($small){
+//                 .home__intro-photo{
+//                         width: span(6 of 12);
+//                         margin-left: span(3 of 12);
+//                 }
+//                 .home__intro-description {
+//                         width: span(8 of 12);
+//                         margin-left: span(2 of 12);
+//                         margin-right: span(2 of 12);
+//                 }
+//         }
+//
+//
+//         @include breakpoint($medium){
+//                 .home__intro-photo{
+//                         width: span(4 of 12);
+//                         margin-left: span(4 of 12);
+//                 }
+//                 .home__intro-description {
+//                         width: span(6 of 12);
+//                         margin-left: span(3 of 12);
+//                         margin-right: span(3 of 12);
+//                 }
+//         }
+//
+//         // Get larger intro text
+//         @include breakpoint($large) {
+//                 // width: calc(100% - 15%);
+//                 // padding-right: 15%;
+//                 .home__intro-photo{
+//                         width: span(6 of 12);
+//                         margin-left: span(3 of 12);
+//                 }
+//                 .home__intro-description {
+//                         width: span(8 of 12);
+//                         margin-left: span(2 of 12);
+//                         margin-right: span(2 of 12);
+//                 }
+//         }
+// }
+

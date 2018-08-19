@@ -1,0 +1,39 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<div class="entries-board">
+	{% for member in site.data.board %}
+	<div class="grid__item">
+		<div class="archive__item-teaser">
+			{% if member.website %} <a href="{{member.website}}">{% endif %}
+				<img src="/assets/images/board/{{ member.name | downcase | replace: ' ', '_'}}.jpg">
+				{% if member.website %}</a> {% endif %}
+		</div>
+
+		<div class="archive__item-description">
+			<p class="archive__item-title">{{member.name}}</p>
+			<p class="archive__item-role">{{member.role}}</p>
+			<p class="archive__item-position">{{member.position}}</p>
+			<p class="archive__item-topic">{{member.topic}}</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+
+
+<div class="alumni">
+	<h2> Alumni </h2>
+	<ul>
+		{% for member in site.data.alumni %}
+		<li>
+			{% if member.website %} <a href="{{member.website}}">{% endif %}
+				{{ member.name}}
+				{% if member.website %}</a> {% endif %}
+		</li>
+		{% endfor %}
+	</ul>
+</div>
