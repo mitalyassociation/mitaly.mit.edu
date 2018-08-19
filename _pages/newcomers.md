@@ -49,11 +49,11 @@ Bisogna recarsi all'ISO (building 5 piano terra) per le pratiche burocratiche.
 
 * Prendere appuntamento con l’ISO per svolgere la sessione di orientamento
 
-* Controllare che le tasse siano pagate presso lo [Student Fincial Services](http://web.mit.edu/sfs/)
+* Controllare che le tasse siano pagate presso lo [Student Financial Services](http://web.mit.edu/sfs/)
 
 * Completare la registrazione presso [Registrar’s Office](http://web.mit.edu/registrar/)
 
-* Ritirare la MIT ID Card (building W20 Basement)
+* Ritirare la MIT ID Card presso l'[Atlas Service Center](https://atlas.mit.edu/atlascenter/).
 
 * Completare le pratiche relative alla assicurazione sanitaria presso [MIT Medical](http://medweb.mit.edu/)
 
