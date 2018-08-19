@@ -170,78 +170,28 @@ thead {
 }
 
 .alumni {
-	clear:both;
-display:block;
+	clear:both;  // Force new line in grid
+	display:block;
 }
 
-
-// .layout--about .page {
-//         // Photo with rounded borders
-//         .home__intro-photo{
-//                 img {
-//                         border-radius: 4px;
-//                 }
-//                 margin-bottom: 2em;
-//         }
-//
-//         .home__intro-description{
-//                 p {
-//                         text-align: justify;
-//                 }
-//         }
-//
-//         // Default for smallest
-//         .home__intro-photo{
-//                 margin-right: 0; [> override margin<]
-//                 clear: both;
-//                 width: span(8 of 12);
-//                 margin-left: span(2 of 12);
-//         }
-//         .home__intro-description {
-//                 clear: none;
-//                 width: span(10 of 12);
-//                 margin-left: span(1 of 12);
-//                 margin-right: span(1 of 12);
-//         }
-//
-//         @include breakpoint($small){
-//                 .home__intro-photo{
-//                         width: span(6 of 12);
-//                         margin-left: span(3 of 12);
-//                 }
-//                 .home__intro-description {
-//                         width: span(8 of 12);
-//                         margin-left: span(2 of 12);
-//                         margin-right: span(2 of 12);
-//                 }
-//         }
-//
-//
-//         @include breakpoint($medium){
-//                 .home__intro-photo{
-//                         width: span(4 of 12);
-//                         margin-left: span(4 of 12);
-//                 }
-//                 .home__intro-description {
-//                         width: span(6 of 12);
-//                         margin-left: span(3 of 12);
-//                         margin-right: span(3 of 12);
-//                 }
-//         }
-//
-//         // Get larger intro text
-//         @include breakpoint($large) {
-//                 // width: calc(100% - 15%);
-//                 // padding-right: 15%;
-//                 .home__intro-photo{
-//                         width: span(6 of 12);
-//                         margin-left: span(3 of 12);
-//                 }
-//                 .home__intro-description {
-//                         width: span(8 of 12);
-//                         margin-left: span(2 of 12);
-//                         margin-right: span(2 of 12);
-//                 }
-//         }
-// }
-
+// Home
+// Form
+form {
+	background-color: #fff;
+	input {
+		background-color: $background-color;
+		color: $text-color;
+		border: 1px solid $lighter-gray;
+		text-align: left;
+		font-family: $sans-serif;
+		padding: .5em;
+	}
+	textarea {
+		background-color: $background-color;
+		color: $text-color;
+		border: 1px solid $lighter-gray;
+		text-align: left;
+		font-family: $sans-serif;
+		margin-bottom: 1em;
+	}
+}
