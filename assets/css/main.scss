@@ -101,11 +101,6 @@ a {
 	color: $primary-color;
 }
 
-// // Sidebar
-// .sidebar {
-//         opacity: 1;  // Remove gray-ish sidebar
-// }
-
 
 // Tables
 thead {
@@ -175,9 +170,64 @@ thead {
 }
 
 // Home
+.layout--home
+.entries-partners{
+	margin-top: 1.5em;
+
+	.grid__item {
+		margin-bottom: 2em;
+
+		@include breakpoint($small) {
+			float: left;
+			width: span(5 of 10);
+
+			&:nth-child(2n + 1) {
+				clear: both;
+				margin-left: 0;
+			}
+
+			&:nth-child(2n + 2) {
+				clear: none;
+				margin-left: gutter(of 10);
+			}
+		}
+
+		@include breakpoint($medium) {
+			float: left;
+			width: span(5 of 10);
+
+			&:nth-child(2n + 1) {
+				clear: both;
+				margin-left: 0;
+			}
+
+			&:nth-child(2n + 2) {
+				clear: none;
+				margin-left: gutter(of 10);
+			}
+		}
+
+
+		.archive__item-teaser{
+			max-height: 500px;
+			img {
+				display: block;
+				margin: auto;
+				width: 50%;
+				border-radius: 5%;
+				@include breakpoint($medium) {
+					width: 70%;
+				}
+			}
+		}
+
+	}
+
+}
 // Form
 form {
 	background-color: #fff;
+	padding: 0;
 	input {
 		background-color: $background-color;
 		color: $text-color;

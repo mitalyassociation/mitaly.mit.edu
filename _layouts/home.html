@@ -1,11 +1,22 @@
 ---
 layout: single
 ---
-<h1>Join us/Contact us!<h1>
-<h2>Facebook</h2>
-<div class="fb-group" data-href="https://www.facebook.com/groups/mitalyassociation/" data-width="280" data-show-social-context="true" data-show-metadata="false"></div>
+{{ content }}
 
-<h2>Mailing list</h2>
+<h2>Welcome to MITaly!</h2>
+
+<p>MITaly is the Italian association at MIT.
+We strive to facilitate a well-connected network of students, faculty, and affiliates who are linked by a shared experience of both MIT and Italian culture.</p>
+
+<p>If you’re in the Boston area, come to our events, and if you’re abroad, stay in touch!</p>
+
+<h2>Join us/Contact us!</h2>
+
+<h3>Facebook</h3>
+<p>Join our Facebook Group for all the updates on the upcoming events!</p>
+<a href="{{site.facebook_group}}" class="btn btn--facebook">Facebook Group</a>
+
+		<h3>Mailing list</h3>
 
 <p>Feel free to contact us in order to join our mailing list, or to ask information about our upcoming events!</p>
 
@@ -18,5 +29,17 @@ layout: single
   <button class="btn btn--primary" type="submit">Send</button>
 </form>
 
-<h1>Partners</h1>
-<p> Yo </p>
+<h2>Partners</h2>
+
+<div class="entries-partners">
+	{% for member in site.data.partners %}
+	<div class="grid__item">
+		<div class="archive__item-teaser">
+			{% if member.website %} <a href="{{member.website}}">{% endif %}
+				<img src="/assets/images/partners/{{ member.logo }}">
+				{% if member.website %}</a> {% endif %}
+		</div>
+	</div>
+	{% endfor %}
+</div>
+

@@ -21,7 +21,6 @@ title_separator          : "-"
 name                     : ""
 description              : "The Italian association at MIT"
 url                      : "https://mitaly.netlify.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466bva9jsenf2ko%40group.calendar.google.com/public/basic.ics"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mitalyassociation/mitaly.mit.edu" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/mit.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -75,6 +74,18 @@ google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
+
+
+
+# Social
+google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466bva9jsenf2ko%40group.calendar.google.com/public/basic.ics"
+facebook_group: https://www.facebook.com/groups/mitalyassociation/
+
+
+
+
+
 
 # Social Sharing
 twitter:
