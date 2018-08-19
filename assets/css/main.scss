@@ -136,7 +136,7 @@ thead {
 				display: block;
 				margin: auto;
 				width: 50%;
-				border-radius: 10%;
+				border-radius: 5%;
 				@include breakpoint($medium) {
 					width: 90%;
 				}
