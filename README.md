@@ -18,3 +18,13 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
   - [ ] Create events
   - [ ] Add pages
   - [ ] Change board members
+
+
+# Guide how to make edits to the website
+
+
+# Build
+
+```
+bundle exec jekyll serve --future
+```
