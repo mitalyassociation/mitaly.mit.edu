@@ -76,7 +76,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 
-
+# Publish future posts
+future: true
 
 # Social
 google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466bva9jsenf2ko%40group.calendar.google.com/public/basic.ics"

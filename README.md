@@ -26,5 +26,5 @@ The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netl
 # Build
 
 ```
-bundle exec jekyll serve --future
+bundle exec jekyll serve
 ```

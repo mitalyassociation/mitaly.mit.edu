@@ -6,8 +6,42 @@ layout: archive
 
 {{ content }}
 
+
+
+{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% assign past_events = "" | split: ',' %}
+{% for event in site.posts %}
+{% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
+{% if eventtime <= nowunix %}
+{% assign past_events = past_events | push:event %}
+{% endif %}
+{% endfor %}
+
+{% assign upcoming_events = "" | split: ',' %}
+{% for event in site.posts %}
+{% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
+{% if eventtime > nowunix %}
+{% assign upcoming_events = upcoming_events | push:event %}
+{% endif %}
+{% endfor %}
+
+
+<h2> Upcoming Events </h2>
+
+  <section id="Upcoming Events" class="taxonomy__section">
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% for post in upcoming_events %}
+        {% include archive-single.html type=page.entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+
+
+<h2> Past Events </h2>
+
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% assign postsInYear = past_events | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -17,7 +51,7 @@ layout: archive
   {% endfor %}
 </ul>
 
-{% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign postsByYear = past_events | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
