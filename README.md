@@ -2,7 +2,7 @@
 
 Website for the MITaly Italian Association at MIT.
 
-Built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getbootstrap.com/).
+Built with [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/).
 
 
 The website is deployed using netlify at [mitaly.netlify.com](http://mitaly.netlify.com). Ask [Bartolomeo Stellato](bartolomeo.stellato@gmail.com) for permission to the deploy website.

@@ -1,12 +1,12 @@
 - name: Gherardo Vita
   role: Co-President
   position: PhD Student
-  topic: Theoretical Physics
+  topic: Theoretical Particle Physics
 
 - name: Gianpaolo Gobbo
   role: Co-President
   position: Postdoctoral Researcher
-  topic: Something
+  topic: Computational Molecular Physics
 
 - name: Nicola Martino
   role: PR
@@ -26,7 +26,7 @@
 - name: Martina Dal Bello
   role: PR
   position: Postdoctoral Researcher
-  topic: Something
+  topic: Ecology
 
 - name: Bartolomeo Stellato
   role: Fund raiser and web designer
