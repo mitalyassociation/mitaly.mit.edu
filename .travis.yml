@@ -32,6 +32,6 @@ addons:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ stellato@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
+  script: rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
   on:
     branch: master
