@@ -21,6 +21,7 @@ addons:
 
 script:
 - bundle exec jekyll build
+- bundle exec htmlproofer ./_site --alt-ignore '/.*/' --allow_hash_href
 
 branches:
   only:
