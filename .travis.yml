@@ -1,43 +1,34 @@
 language: ruby
+
 rvm:
-  - 2.4.1
+- 2.4.1
 
 env:
-  # ATHENA_USERNAME
-  - secure: "gWBABVT+P8lF5LJnEpzenzJf4b6Ia7R+P1XUdqmbkUyF8WsPg1GVSPLDyBcdw6SA+Zimf/JX8M5GI8UhFNPQHxPj0z7Eib5mWW5zBMofefyAk+t7MLvwQ1W6hherACfPV/fXGr1oGr9qKUmWyK/EwtGvAM4glv5sIN3y2ZQll4YsvckoXydMzfymE/RP+Xmv/fkwEBwFHNQdE/Dj4v829FN5872DQ0uUK771y5yIv1vlrb1JILj96RUumWJeVbSp63tX8yJXxAzYdold+Luuu8UDEMyQs0/JvCMWU5v8YRU836x3aYN6ysdBOu8OKnYsA10WTGYqMqM/Bm4DR+JtIfB0g2x28pj40q4AQzp9rSdPFh0aM+hqeOzMETQ1kOncKdq16bYoq+KtwHP0QY8a9IBMo59Yk2Py7Fa95dAXehNM2+MOeYG7BGubpgXWF4fXYSnNE3Em4lDnHjFis4Gck1lS7th1c7qOotZvsFi2SdeOGiPQWv2jqImHjx4w8l+BmILkgZBrLUadHUevA5sltY3SAwNzehrgrTEOmbC2QbTDjrPAUe5LxVCsbX+W0eQusCgHfYZiqp5nEZwelRK97xjQNEt+MCk6qikzCw1LCl0LgDabMtlKx/1xrreEsBNobX2Ozec6rFBk6X2EsGUgsqV4Ca4uZ6kXndWIWZCjjsg="
-  # ATHENA_PASSWORD
-  - secure: "VNX60wpqnqJHRKQ//JjwRjQA1M1P8DFMXcUkC7MrNq8ehDIxsJ3tQdivserbt+WAkqpu05W9aPLOpk6oMfF6dEzs1qgQQRBA+pxqk6v78KtObQfkr2iMXIVBtBpWqT38xdlJhY4OFALg8vbVljJJ2kupOUQL/pYLkTedUi1k1iHLs6qMuOHN1p745SA8abF0TN51QMJSU0GIk1roVTQeY+hM4nTP63EyMLvOZS9C9OFR0j07KIWkAMf8gfQn1iWz+iupmD5c6/1Ja9Al66+saW1aDPbpVlyGDiLq1SZ36nRR4GyQlJ4P2MFqgNKX72gu5/O93wDsPAX8MUKndZWUc1drqlf2HYgGmeXpJpMIjs/PKjIv9YfvK+Guz60z54IAvaur4vwugz11RhDKlQkvbFdhvuW2PGvujVZozm3UyZGzCvH2Lh5qR1GrhmS3Kjc+dBPBLJJUoulNSVwty8FBpQP+f+Amzil2HYAorzEgmlnH6o4oYQD24o0Un7WHj+VEaNvVn471QmBtDL8mrVmJHG00deOHPoXcNWc+bXfc7GL3OnH/WeWto/0w74hZt/RPS6utJu7TE1V80B8MEOEIT5cJAgZz7wtbH6oJ+wwOXEy07K/VkJd4bG/+MvBxL1XL9zzdQXK2zi3J045dZnA7DE6u+6LKNQIkaIPnMo5O2aI="
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-# Install SSH pass for SSH access
-addons:
-  apt:
-    packages:
-      - sshpass
+# Dectypt deployment key
+before_install:
+- openssl aes-256-cbc -K $encrypted_6a4bb3b6258d_key -iv $encrypted_6a4bb3b6258d_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 script:
- - bundle exec jekyll build
- # - bundle exec htmlproofer ./_site --alt-ignore '/.*/' --allow_hash_href
+- bundle exec jekyll build
 
-
-# branch whitelist, only for GitHub Pages
 branches:
   only:
   - master
 
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+sudo: false
 
-sudo: false # route your build to the container-based infrastructure for a faster build
+cache: bundler
 
-cache: bundler # caching bundler gem packages will speed up build
+addons:
+  ssh_known_hosts: athena.dialup.mit.edu
 
-# Deploy on Athena MIT
 deploy:
   provider: script
   skip_cleanup: true
-  script: sshpass -p '$ATHENA_PASSWORD' rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ $ATHENA_USERNAME@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
+  script: rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ stellato@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
   on:
     branch: master
