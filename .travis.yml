@@ -16,6 +16,7 @@ addons:
   apt:
     packages:
     - sshpass
+  ssh_known_hosts: athena.dialup.mit.edu
 
 
 script:
@@ -28,9 +29,6 @@ branches:
 sudo: false
 
 cache: bundler
-
-addons:
-  ssh_known_hosts: athena.dialup.mit.edu
 
 deploy:
   provider: script
