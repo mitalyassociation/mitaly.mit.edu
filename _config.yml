@@ -5,6 +5,39 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+
+
+
+
+# MITaly website settings
+title                    : "MITaly"
+description              : "The Italian association at MIT"
+url                      : "http://mitaly.mit.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository               : "mitalyassociation/mitaly.mit.edu" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/mit.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+board_email: mitalyboard@mit.edu
+email: mitaly@mit.edu
+
+# Publish future posts
+future: true
+
+# Social
+google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466bva9jsenf2ko%40group.calendar.google.com/public/basic.ics"
+facebook_group: https://www.facebook.com/groups/mitalyassociation/
+
+
+
+
+# Analytics
+analytics:
+  provider               : google-gtag # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : UA-56714542-4
+    anonymize_ip         : # true, false (default)
+
+
+
+
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
@@ -16,14 +49,9 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "MITaly"
 title_separator          : "-"
-name                     : "Ye"
-description              : "The Italian association at MIT"
-url                      : "https://mitaly.netlify.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : ""
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "mitalyassociation/mitaly.mit.edu" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/mit.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -76,13 +104,6 @@ yandex_site_verification :
 naver_site_verification  :
 
 
-# Publish future posts
-future: true
-
-# Social
-google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466bva9jsenf2ko%40group.calendar.google.com/public/basic.ics"
-facebook_group: https://www.facebook.com/groups/mitalyassociation/
-
 
 
 
@@ -92,10 +113,9 @@ facebook_group: https://www.facebook.com/groups/mitalyassociation/
 twitter:
   username               :
 facebook:
-  username               : "groups/mitalyassociation/"
+  username               : ""
   app_id                 :
   publisher              :
-email: mitalyboard@mit.edu
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -103,13 +123,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-56714542-4
-    anonymize_ip         : # true, false (default)
 
 
 # Site Author
