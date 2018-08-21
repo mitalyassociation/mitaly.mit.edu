@@ -5,14 +5,17 @@ rvm:
 
 env:
   global:
+  # ATHENA_USERNAME
+  - secure: "Vd3P5z2SCPdArlXGtIqCFWVDL1ZMPwQNIgVo20Ax3p/eMqJBwFVsycIDr0t89/jewWYmkCL/8lbLxFp0ELlXolTiubCZ9cGOoPTFaGKObKxHLY2qire2lVE7mxRkILwBIL/6nKTv6f7BFl2597flAqljyNo6tKq5ZRV1qSUuivG0VubWvuKwp+RwvZCzIectMcMRrTyjAOLStP+zPOgfUZCih4YdYw+VQayNv+ejOHIaOOWjlCu3LuIHO7BBE8EA3dsDt57nx5eCEXNzu+ursHFcOj4ZTLsiOXLikm7Vt5fhVAxIXEe/av/BzkyW7cCiVSlyVdXkJkw/NLM1QQ32DTY0pv0MXNanXW+7XlncV6ydE1+xU7q8+L2luCRLyGI5dLYIglmh2jnr3muVu10afg9SulMKsHbzaymVGQ6xs23DFkccBMS3lALYh2Qp7+jPzcI+cNzyADR9ALDi6zR66+Hlk3zSxjSbKbIfOKMF0+Bk0/AyLnZBn3QZLH5OZ/r9lq74ztnSGbnk7kM+jpWKrXPKSLWysTrnw2hGfuAps/jkYYXVumrJxbMK28msHXCMCQdfwI+uhIG1K5UI+RdzyZSI8U444gSQnxXYXwRme7vTKivB9HtCFlfj9wnMuwZgIBuU+X9SpqksflryO8q8ICIEhTU4qvzzbiHsRZQVb7s="
+  # ATHENA_PASSWORD
+  - secure: "KD7UfdZBeqNiG4fVJsQHuwfGzLFULpT+prx6JufwkeW5k+t2P4fDWARJEHJqqqwqmgFO5JL3EwbFApZWB4ORtYVdAnYgwoacddQPIwebJvMx5LEZQUxQAA0Gf2b8i4X51+8q88hqJLosYmCLoYr/DuRLKZ2QJvY+4kucB8/z3S+wnmYgoCvQi/MjFsDgXZwnD8wUBPhaUKSqVTtTnaMfwzi0M+HrHLunU0/RlKOoa80qgqZ+coWvnK6VLGjtR8YOMATR2DkbkpskMqsLSbT5O1fVdpH3DRKiWSV4ik63lTYRD0CfJ6vVHO/TFLcaY/cb9kBxwbf6CBfznL9yaatVVjuSabswsUMlN3u/YaqLRxPJdqDqA02931YUWoImLvxElX7EGk+0kx2kgxFkDf42Q68i1pORRBcQ8xkYtzE/vLsSia1NGEHSHGZv1roWpw5krA60PrH7WoFRAZubyPmI8xi9PDpQ9QcU1gEPNvw2Q3i43Hw/m1XynklABxCTfv4CzkEKBK2sUuIIw+It68jvKLV+YWywAX7dMcc773THzrIYf7CtCk9z9CXt7jxnuw954TzEZyjBlSnS5zTOM9cKk9wRFPu8+fQVofN/j/10ZPfO6t3UQjkTT8TZgqCoIODgyH2WNG3CWBuCoycwQUMFyZ69/fH66ocgzC9/6d/IJfs="
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
-# Dectypt deployment key
-before_install:
-- openssl aes-256-cbc -K $encrypted_6a4bb3b6258d_key -iv $encrypted_6a4bb3b6258d_iv -in deploy_rsa.enc -out deploy_rsa -d
-- eval "$(ssh-agent -s)"
-- chmod 600 deploy_rsa
-- ssh-add deploy_rsa
+# Add sshpass
+addons:
+  apt:
+    packages:
+    - sshpass
 
 
 script:
@@ -32,6 +35,6 @@ addons:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
+  script: sshpass -p '$ATHENA_PASSWORD' rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ $ATHENA_USERNAME@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
   on:
     branch: master
