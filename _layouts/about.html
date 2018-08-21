@@ -9,7 +9,7 @@ layout: archive
 	<div class="grid__item">
 		<div class="archive__item-teaser">
 			{% if member.website %} <a href="{{member.website}}">{% endif %}
-				<img src="/assets/images/board/{{ member.name | downcase | replace: ' ', '_'}}.jpg">
+				<img src="/assets/images/board/{{ member.name | downcase | replace: ' ', '_'}}.jpg" alt="{{ member.name }}">
 				{% if member.website %}</a> {% endif %}
 		</div>
 

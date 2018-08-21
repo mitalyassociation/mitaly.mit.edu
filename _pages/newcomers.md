@@ -79,7 +79,7 @@ Attivare un [conto corrente in una banca americana](http://www.web.mit.edu/iso/s
 * MIT [On-Campus Housing](https://housing.mit.edu/graduatefamily/residences)
 * Off-Campus Housing:
   * [Listings](https://housing.mit.edu/och/search)
-  * [Survival Guide](https://housing.mit.edu/off_campus/mit_survival_guide_renting_campus) for Renting Off-Campus
+  * [Survival Guide](https://studentlife.mit.edu/housing) for Renting Off-Campus
 
 #### [Craiglist](http://boston.craigslist.org/hhh/)
 Solo per alloggi Off-Campus (non MIT).
@@ -107,7 +107,7 @@ L’accesso alle strutture sportive è gratis per gli studenti al [MITRecSports]
 
 * [Università](http://www.mit.edu/)
 * [Metropolitana di Boston](http://www.mbta.com)
-* [Servizi informatici dell’Istituto](http://www.ist.mit.edu)
+* [Servizi informatici dell’Istituto](https://ist.mit.edu/)
 * [Consolato italiano a Boston](http://www.consboston.esteri.it)
 
 
@@ -135,7 +135,7 @@ La compagnia con miglior ricezione a Cambridge/Boston è AT&amp;T che permette d
 
 #### Carta dei trasporti pubblici (Charlie Card)
 Procurarsi una Charlie Card per la metropolitana.
-È gratuita e permette di avere corse a tariffa ridotta in tutta la [MBTA](www.mbta.com/fares_and_passes/charlie/)
+È gratuita e permette di avere corse a tariffa ridotta in tutta la [MBTA](https://www.mbta.com/fares_and_passes/charlie/)
 
 #### Iniziare a cercare una stanza
 Iniziate a cercare una stanza il prima possibile
@@ -146,7 +146,7 @@ Se la ricerca della casa va per le lunghe compratevi una bici (cosa per altro ut
 #### Conto corrente
 Aprire un conto in banca: Quando affitterete una stanza a seconda del tipo di contratto vi verrà chiesto di pagare il primo mese, un deposito e spesso anche l’ultimo mese a garanzia.
 Questo significa avere la possibilità di trasferire o prelevare considerevoli somme che è difficile ottenere con prelievi da sportelli ATM poiché generalmente limitati a 200\$ a prelievo per carte bancomat italiane.
-L’MIT ha una sua banca interna, [MITFCU](www.mitfcu.org/home/home) che permette di aprire conti correnti a condizioni agevolate. Bisogna però essere studenti dell’ateneo e quindi avere completato tutta le pratiche per l’inserimento all’MIT. Altrimenti si può scegliere una qualunque altra banca americana.
+L’MIT ha una sua banca interna, [MITFCU](https://www.mitfcu.org) che permette di aprire conti correnti a condizioni agevolate. Bisogna però essere studenti dell’ateneo e quindi avere completato tutta le pratiche per l’inserimento all’MIT. Altrimenti si può scegliere una qualunque altra banca americana.
 
 
 ### Nota introduttiva
@@ -166,7 +166,7 @@ La soluzione più stimolante è una sistemazione OFF-Campus in un appartamento c
 #### IN-Campus
 L’MIT ha numerosi dormitori dove trovano posto gli undergraduated, i Ph.D. e i visiting student.
 Ovviamente il MIT da precedenza agli studenti "ordinari", ma se rimangono posti vacanti questi sono resi disponibili per le altre categorie.
-Nell’istante in cui avrete mail e password ufficiali vi consigliamo di andare sul sito dell'[Housing del MIT](www.housing.mit.edu) dedicato e fare richiesta per una o più residenze.
+Nell’istante in cui avrete mail e password ufficiali vi consigliamo di andare sul sito dell'[Housing del MIT](https://studentlife.mit.edu/housing) dedicato e fare richiesta per una o più residenze.
 Ogni residenza è diversa dalle altre, sia come qualità delle camere che come prezzi e la scelta sta a voi a seconda delle vostre risorse economiche e delle vostre aspettative.
 Una volta iscritti potrete contattare il servizio di housing e chiedere la vostra posizione in waiting list e quali sono le probabilità di essere accettati entro il vostro arrivo o il mese successivo.
 Di solito sono estremamente schietti nel non dare false speranze.
@@ -177,7 +177,7 @@ Indipendentemente da come siate messi in waiting list è bene avere una seconda 
 La ricerca di una casa OFF-Campus è però più difficile e ricca di insidie, truffe e richiede molto tempo per selezionare, contattare e visionare le offerte più interessanti.
 Per la ricerca di case sono a dispozione numerosi siti e riportiamo qui con una breve descrizione solo i più utili:
 
-* [MIT off-housing](www.housing.mit.edu/off_campus/mit_off_campus_listings) contiene diverse bacheche di annunci per la ricerca di stanze ed appartamenti. In particolare sarà possibile ricercare in case offerte da privati, in case di proprietà dell’MIT o in case di studenti. Sono tutte case referenziate e affidabili, di buona qualità e spesso vicine all’MIT. Sul sito è presente anche una [guida molto dettagliata](http://www.housing.mit.edu/off_campus/mit_survival_guide_renting_campus) sulle diverse tipologie di affitti e una descrizione dei quartieri con i relativi pro e contro.
+* [MIT off-housing](https://studentlife.mit.edu/housing/offcampus-housing) contiene diverse bacheche di annunci per la ricerca di stanze ed appartamenti. In particolare sarà possibile ricercare in case offerte da privati, in case di proprietà dell’MIT o in case di studenti. Sono tutte case referenziate e affidabili, di buona qualità e spesso vicine all’MIT. Sul sito è presente anche una [guida molto dettagliata](https://studentlife.mit.edu/housing) sulle diverse tipologie di affitti e una descrizione dei quartieri con i relativi pro e contro.
 
 * [Craiglist](http://www.craiglist.com) certamente il sito con il maggior numero di annunci ma anche di insidie. Troverete di tutto, per tutti i gusti e tutte le tasche ma valgono i seguenti consigli
   * Tenere sempre sotto controllo i nuovi annunci: gli inserzionisti vengono sommersi di richieste e spesso rispondono solo ai primi che gli scrivono.
@@ -188,11 +188,9 @@ Per la ricerca di case sono a dispozione numerosi siti e riportiamo qui con una 
   * Diffidate di tutti quelli che momentaneamente non sono presenti per mostrarvi la casa ma dicono che è importante basare tutto sulla fiducia e concludono le mail con God Bless You.
   * Controllate sempre bene l’indirizzo su google street view per avere una idea della zona e della casa.
 
-* [Harvard Housing](http://huhousing.offcampuslisting.com/) è un sito equivalente a [MIT off-housing](www.housing.mit.edu/off_campus/mit_off_campus_listings) ma fatto da studenti Harvard, non si richiede però di esservi iscritti e permette di trovare buone soluzioni.
+* [Harvard Housing](https://www.harvardhousingoffcampus.com/) è un sito equivalente a [MIT off-housing](https://studentlife.mit.edu/housing/offcampus-housing) ma fatto da studenti Harvard, non si richiede però di esservi iscritti e permette di trovare buone soluzioni.
 
-* [MIT Euroclub](http://euroclub.mit.edu/marketplace/1) è un sito poco conosciuto che permette di trovare buoni alloggi messi a disposizione da privati.
-
-#### [Fraternities and sororities](www.studentlife.mit.edu/fsilg)
+#### [Fraternities and sororities](https://studentlife.mit.edu/fsilg)
 Una ultima opzione è quella di cercare una camera in una delle tante fratenities o sororities dell’MIT. A volte capita che abbiano stanze libere per qualche mese. Questa soluzione è certamente interessante poiché tali edifici sono tutti vicini all’MIT e con affitti spesso contenuti.
 
 #### Spargere la voce
