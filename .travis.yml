@@ -38,6 +38,6 @@ cache: bundler # caching bundler gem packages will speed up build
 deploy:
   provider: script
   skip_cleanup: true
-  script: sshpass -p '$ATHENA_PASSWORD' rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ $ATHENA_USERNAME@@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
+  script: sshpass -p '$ATHENA_PASSWORD' rsync -r --delete-after $TRAVIS_BUILD_DIR/_site/ $ATHENA_USERNAME@athena.dialup.mit.edu:/afs/athena.mit.edu/activity/m/mitaly/web_scripts/website
   on:
     branch: master
