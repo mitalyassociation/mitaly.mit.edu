@@ -9,12 +9,6 @@ Built with [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github
 Ask [Bartolomeo Stellato](bartolomeo.stellato@gmail.com) for permission to the deploy website.
 
 # TODO
-
-
-- [ ] Add latest events
-- [ ] Change events layout:
-  - [ ] Change all the events to avoid `overlay_image`
-  - [ ] Remove headers for old events with poor quality pics
 - [ ] Add README details on how to
   - [ ] Create events
   - [ ] Add pages
