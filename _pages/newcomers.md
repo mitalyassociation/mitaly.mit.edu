@@ -43,7 +43,7 @@ Si può scegliere se utilizzare l’assizurazione offerta dal MIT oppure un’as
 Per orientarsi nel campus, usare la [mappa ufficiale](http://whereis.mit.edu/). Consigliamo di andare al più presto dal proprio advisor.
 
 
-#### [Iternational Student Office (ISO)](http://web.mit.edu/iso/)
+#### [International Student Office (ISO)](http://web.mit.edu/iso/)
 
 Bisogna recarsi all'ISO (building 5 piano terra) per le pratiche burocratiche.
 
@@ -81,7 +81,7 @@ Attivare un [conto corrente in una banca americana](http://www.web.mit.edu/iso/s
   * [Listings](https://housing.mit.edu/och/search)
   * [Survival Guide](https://studentlife.mit.edu/housing) for Renting Off-Campus
 
-#### [Craiglist](http://boston.craigslist.org/hhh/)
+#### [Craigslist](http://boston.craigslist.org/hhh/)
 Solo per alloggi Off-Campus (non MIT).
 
 
@@ -175,7 +175,7 @@ Il consiglio è di iscriversi immediatamente soprattutto se dovete arrivare a Bo
 #### OFF-Campus
 Indipendentemente da come siate messi in waiting list è bene avere una seconda alternativa che spesso potrebbe rivelarsi più economica e più stimolante.
 La ricerca di una casa OFF-Campus è però più difficile e ricca di insidie, truffe e richiede molto tempo per selezionare, contattare e visionare le offerte più interessanti.
-Per la ricerca di case sono a dispozione numerosi siti e riportiamo qui con una breve descrizione solo i più utili:
+Per la ricerca di case sono a disposizione numerosi siti e riportiamo qui con una breve descrizione solo i più utili:
 
 * [MIT off-housing](https://studentlife.mit.edu/housing/offcampus-housing) contiene diverse bacheche di annunci per la ricerca di stanze ed appartamenti. In particolare sarà possibile ricercare in case offerte da privati, in case di proprietà dell’MIT o in case di studenti. Sono tutte case referenziate e affidabili, di buona qualità e spesso vicine all’MIT. Sul sito è presente anche una [guida molto dettagliata](https://studentlife.mit.edu/housing) sulle diverse tipologie di affitti e una descrizione dei quartieri con i relativi pro e contro.
 
