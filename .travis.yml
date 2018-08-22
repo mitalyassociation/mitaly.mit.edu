@@ -20,8 +20,9 @@ addons:
 
 
 script:
-- bundle exec jekyll build
-# - bundle exec htmlproofer ./_site --alt-ignore '/.*/' --allow_hash_href
+  # Production environment to get Google Analytics
+  - JEKYLL_ENV=production bundle exec jekyll build
+  # - bundle exec htmlproofer ./_site --alt-ignore '/.*/' --allow_hash_href
 
 branches:
   only:

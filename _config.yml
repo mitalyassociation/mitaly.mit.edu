@@ -30,10 +30,10 @@ facebook_group: https://www.facebook.com/groups/mitalyassociation/
 
 # Analytics
 analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-56714542-4
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "UA-56714542-4"
+    anonymize_ip         : false # true, false (default)
 
 
 
