@@ -1,7 +1,7 @@
 ---
 title: "Evolution of the Italian Comedy: Part 1"
 categories:
-  - Cineforum
+  - Culture
 excerpt: "\"Il Mostro\" by Roberto Benigni"
 header:
   image: /assets/images/events/2017-04-04-evolution_italian_comedy_pt1/header.jpg
