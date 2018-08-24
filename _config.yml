@@ -43,6 +43,10 @@ comments:
   provider: "staticman_v2"
 staticman:
   branch: "master"
+reCaptcha:
+  enabled: true
+  siteKey: "6LcKEGwUAAAAAJflM4Arn-BFigWNE5yt6FjGhJUe"
+  secret: "6LcKEGwUAAAAACNm63Bg7nYFexyf_AV69950il29"
 
 # Default Theme Settings
 #
@@ -87,9 +91,9 @@ words_per_minute         : 200
 #       type               : # "date"
 #       options:
 #         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-reCaptcha:
-  siteKey                :
-  secret                 :
+# reCaptcha:
+#   siteKey                :
+#   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
