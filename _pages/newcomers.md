@@ -6,7 +6,6 @@ permalink: /newcomers/
 header:
   image: /assets/images/newcomers/suitcase.jpg
   teaser: /assets/images/newcomers/suitcase.jpg
-comments: true
 ---
 
 Potete scaricare queste guide anche in pdf a questi link:
