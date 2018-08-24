@@ -15,7 +15,10 @@ layout: archive
 
 		<div class="archive__item-description">
 			<p class="archive__item-title">{{member.name}}</p>
+			{% assign role = member.role | downcase %}
+			{% if role contains "president" %}
 			<p class="archive__item-role">{{member.role}}</p>
+			{% endif %}
 			<p class="archive__item-position">{{member.position}}</p>
 			<p class="archive__item-topic">{{member.topic}}</p>
 		</div>
