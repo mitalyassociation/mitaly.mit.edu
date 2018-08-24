@@ -228,7 +228,7 @@ thead {
 form {
 	// background-color: #fff;
 	background-color: $lighter-gray;
-	border-radius: 1%;
+	border-radius: 4px;
 	padding: 1em;
 	input {
 		background-color: $background-color;
@@ -249,4 +249,39 @@ form {
 		margin-bottom: 1em;
 		padding: .5em;
 	}
+}
+
+// 404 button as normal button
+#goog-wm-sb {
+  /* default */
+  display: inline-block;
+  margin-bottom: 0.25em;
+  padding: 0.5em 1em;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-width: 0;
+  border-radius: $border-radius;
+  cursor: pointer;
+  @include yiq-contrasted($primary-color);
+  @if ($primary-color == inverse) {
+	  border: 1px solid $border-color;
+  }
+  @if ($primary-color == light-outline) {
+	  border: 1px solid #fff;
+  }
+
+  &:hover {
+	  @include yiq-contrasted(mix(#000, $primary-color, 20%));
+  }
+
+  &:visited {
+	  @include yiq-contrasted($primary-color);
+  }
+}
+
+#goog-wm-qt {
+    border-width: 0px !important;
 }
