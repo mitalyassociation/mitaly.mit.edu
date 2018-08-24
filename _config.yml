@@ -26,19 +26,25 @@ google_calendar     : "https://calendar.google.com/calendar/ical/3kavq4o76jb466b
 facebook_group: https://www.facebook.com/groups/mitalyassociation/
 
 
-
-
-# Analytics
+# Google Search and Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-56714542-4"
     anonymize_ip         : false # true, false (default)
+google_site_verification : "aDNJGDIhBrNMeppEOfHwpm1Se699VhSS2P_7kWPvqoY"
 
 
+# Posts
+# Permanent link for the events (_posts/)
+permalink: /events/:categories/:year/:month/:day/:title/
 
+comments:
+  provider: "staticman_v2"
+staticman:
+  branch: "master"
 
-# Theme Settings
+# Default Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
@@ -54,33 +60,33 @@ name                     : ""
 baseurl                  : # the subpath of your site, e.g. "/blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+# comments:
+#   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+#   disqus:
+#     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#   discourse:
+#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     # https://developers.facebook.com/docs/plugins/comments
+#     appid                :
+#     num_posts            : # 5 (default)
+#     colorscheme          : # "light" (default), "dark"
+# staticman:
+#   allowedFields          : # ['name', 'email', 'url', 'message']
+#   branch                 : "master"
+#   commitMessage          : # "New comment."
+#   filename               : # comment-{@timestamp}
+#   format                 : # "yml"
+#   moderation             : # true
+#   path                   : # "/_data/comments/{options.slug}" (default)
+#   requiredFields         : # ['name', 'email', 'message']
+#   transforms:
+#     email                : # "md5"
+#   generatedFields:
+#     date:
+#       type               : # "date"
+#       options:
+#         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -98,7 +104,6 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "aDNJGDIhBrNMeppEOfHwpm1Se699VhSS2P_7kWPvqoY"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -223,7 +228,6 @@ sass:
 
 
 # Outputting
-permalink: /events/:categories/:year/:month/:day/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -259,20 +263,14 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
-    # - tags
   layouts:
     category: archive-taxonomy
-    # tag: archive-taxonomy
   permalinks:
     category: /categories/:name/
-    # tag: /tags/:name/
 
 
 # HTML Compression
@@ -293,6 +291,6 @@ defaults:
       layout: event
       author_profile: false
       read_time: false
-      comments: # true
+      comments: true
       share: false
       related: true

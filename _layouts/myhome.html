@@ -14,7 +14,7 @@ We strive to facilitate a well-connected network of students, faculty, and affil
 
 <h3>Facebook</h3>
 <p>Join our Facebook Group for all the updates on the upcoming events!</p>
-<a href="{{site.facebook_group}}" class="btn btn--facebook">Facebook Group</a>
+<a href="{{site.facebook_group}}" class="btn btn--facebook btn--large">Facebook Group</a>
 
 <h3>Mailing list</h3>
 
@@ -22,11 +22,14 @@ We strive to facilitate a well-connected network of students, faculty, and affil
 
 <form action="https://formspree.io/{{ site.board_email }}"
       method="POST">
-	<input name="name" placeholder="Your name" required>
-	<input type="email" name="email" placeholder="Your email" required>
+	<label for="comment-form-name">Name <small class="required">*</small></label>
+	<input name="name" placeholder="e.g., Mario Rossi" required>
+	<label for="comment-form-name">Email <small class="required">*</small></label>
+	<input type="email" name="email" placeholder="e.g., mario.rossi@email.com" required>
 	<input type="hidden" name="_subject" value="[MITaly] Contact Us">
-	<textarea name="message" placeholder="Your message" required></textarea>
-	<button class="btn btn--primary" type="submit">Send</button>
+	<label for="comment-form-name">Message <small class="required">*</small></label>
+	<textarea name="message" placeholder="Hi MITalians! Please add me to your cool mailing list!" required></textarea>
+	<button class="btn btn--primary btn--large" type="submit">Send</button>
 </form>
 
 <h2>Partners</h2>

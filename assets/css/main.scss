@@ -226,14 +226,17 @@ thead {
 }
 // Form
 form {
-	background-color: #fff;
-	padding: 0;
+	// background-color: #fff;
+	background-color: $lighter-gray;
+	border-radius: 1%;
+	padding: 1em;
 	input {
 		background-color: $background-color;
 		color: $text-color;
 		border: 1px solid $lighter-gray;
 		text-align: left;
 		font-family: $sans-serif;
+		font-size: .8em;
 		padding: .5em;
 	}
 	textarea {
@@ -242,6 +245,8 @@ form {
 		border: 1px solid $lighter-gray;
 		text-align: left;
 		font-family: $sans-serif;
+		font-size: .8em;
 		margin-bottom: 1em;
+		padding: .5em;
 	}
 }
