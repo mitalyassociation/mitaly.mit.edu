@@ -13,7 +13,7 @@ Potete scaricare queste guide anche in pdf a questi link:
 [Arrivo al MIT](/assets/downloads/guida_arrivo.pdf){: .btn .btn--primary }
 [Cercar Casa](/assets/downloads/guida_cercar_casa.pdf){: .btn .btn--primary }
 
-Queste informazioni sono da ritenersi di carattere *puramente indicativo* e non rappresentano la posizione ufficiale del MIT, di MITaly, o di altri soggetti menzionati. Vi preghiamo di proporre suggerimenti e modifiche inviando i vostri commenti a [mitaly@mit.edu](mailto:{{ site.email }}).
+Queste informazioni sono da ritenersi di carattere *puramente indicativo* e non rappresentano la posizione ufficiale del MIT, di MITaly, o di altri soggetti menzionati. Vi preghiamo di proporre suggerimenti e modifiche inviando i vostri commenti a [mitalyboard@mit.edu](mailto:{{ site.email }}).
 
 ## Arrivo al MIT
 
