@@ -285,6 +285,11 @@ compress_html:
     envs: development
 
 
+collections:
+  dessert:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
@@ -297,9 +302,14 @@ defaults:
       read_time: false
       comments: true
       share: false
+   # _recipes
+  - scope:
+      path: ""
+      type: dessert
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: true
       related: true
 
-collections:
-  dessert:
-    output: true
-    permalink: /:collection/:path/

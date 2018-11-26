@@ -6,6 +6,8 @@ main:
     url: /about/
   - title: "Info for Newcomers"
     url: /newcomers/
+  - title: "Dessert Tour"
+    url: /dessert/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
