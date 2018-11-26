@@ -298,3 +298,8 @@ defaults:
       comments: true
       share: false
       related: true
+
+collections:
+  dessert:
+    output: true
+    permalink: /:collection/:path/
