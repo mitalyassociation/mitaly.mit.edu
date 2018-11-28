@@ -1,8 +1,8 @@
 ---
 title: "Salame al Cioccolato"
 header:
-  image: /assets/images/dessert/salame_al_cioccolato.jpg
-  teaser: /assets/images/dessert/salame_al_cioccolato.jpg
+  image: /assets/images/dessert/salame.jpg
+  teaser: /assets/images/dessert/salame.jpg
 ---
 
 Recipe by Alice Cosma.
