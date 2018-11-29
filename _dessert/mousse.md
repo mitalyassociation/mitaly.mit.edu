@@ -1,8 +1,8 @@
 ---
 title: "Mousse al Cioccolato"
 header:
-  image: /assets/images/dessert/mousse.jpg
-  teaser: /assets/images/dessert/mousse.jpg
+  image: /assets/images/dessert/homemade/mousse.jpg
+  teaser: /assets/images/dessert/homemade/mousse.jpg
 ---
 Recipe by Sara Colombo.
 

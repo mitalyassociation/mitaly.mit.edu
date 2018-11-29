@@ -1,8 +1,8 @@
 ---
 title: "Tiramisú"
 header:
-  image: /assets/images/dessert/tiramisu.jpg
-  teaser: /assets/images/dessert/tiramisu.jpg
+  image: /assets/images/dessert/homemade/tiramisu.jpg
+  teaser: /assets/images/dessert/homemade/tiramisu.jpg
 ---
 Recipe by Nicola Martino.
 

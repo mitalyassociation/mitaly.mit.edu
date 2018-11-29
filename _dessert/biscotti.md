@@ -1,8 +1,8 @@
 ---
 title: "Biscotti"
 header:
-  image: /assets/images/dessert/biscotti.jpg
-  teaser: /assets/images/dessert/biscotti.jpg
+  image: /assets/images/dessert/homemade/biscotti.jpg
+  teaser: /assets/images/dessert/homemade/biscotti.jpg
 ---
 
 Recipe by Giacomo De Palma.

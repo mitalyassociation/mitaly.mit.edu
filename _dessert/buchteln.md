@@ -1,8 +1,8 @@
 ---
 title: "Buchteln"
 header:
-  image: /assets/images/dessert/buchteln.jpg
-  teaser: /assets/images/dessert/buchteln.jpg
+  image: /assets/images/dessert/homemade/buchteln.jpg
+  teaser: /assets/images/dessert/homemade/buchteln.jpg
 ---
 Recipe by Bianca Giovanardi.
 

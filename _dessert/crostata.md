@@ -1,8 +1,8 @@
 ---
 title: "Crostata alla marmellata"
 header:
-  image: /assets/images/dessert/crostata.jpg
-  teaser: /assets/images/dessert/crostata.jpg
+  image: /assets/images/dessert/homemade/crostata.jpg
+  teaser: /assets/images/dessert/homemade/crostata.jpg
 ---
 Recipe by Simone Bruno.
 

@@ -1,8 +1,8 @@
 ---
 title: "Torta tenerina"
 header:
-  image: /assets/images/dessert/tenerina.jpg
-  teaser: /assets/images/dessert/tenerina.jpg
+  image: /assets/images/dessert/homemade/tenerina.jpg
+  teaser: /assets/images/dessert/homemade/tenerina.jpg
 ---
 Recipe by Lorenzo De Santis.
 

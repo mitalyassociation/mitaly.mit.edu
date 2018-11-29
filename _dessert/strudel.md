@@ -1,8 +1,8 @@
 ---
 title: "Strüdel di mele"
 header:
-  image: /assets/images/dessert/strudel.jpg
-  teaser: /assets/images/dessert/strudel.jpg
+  image: /assets/images/dessert/homemade/strudel.jpg
+  teaser: /assets/images/dessert/homemade/strudel.jpg
 ---
 Recipe by Adele Gabba.
 

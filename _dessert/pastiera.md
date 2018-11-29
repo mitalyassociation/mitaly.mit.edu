@@ -1,8 +1,8 @@
 ---
 title: "Pastiera"
 header:
-  image: /assets/images/dessert/pastiera.jpg
-  teaser: /assets/images/dessert/pastiera.jpg
+  image: /assets/images/dessert/homemade/pastiera.jpg
+  teaser: /assets/images/dessert/homemade/pastiera.jpg
 ---
 Recipe by Martina Dal Bello.
 

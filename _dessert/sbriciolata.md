@@ -1,8 +1,8 @@
 ---
 title: "Sbriciolata con ricotta e cioccolato"
 header:
-  image: /assets/images/dessert/sbriciolata.jpg
-  teaser: /assets/images/dessert/sbriciolata.jpg
+  image: /assets/images/dessert/homemade/sbriciolata.jpg
+  teaser: /assets/images/dessert/homemade/sbriciolata.jpg
 ---
 
 Recipe by Giulia Catalini.
