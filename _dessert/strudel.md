@@ -1,5 +1,5 @@
 ---
-title: "Apple Strüdel"
+title: "Strüdel di mele"
 header:
   image: /assets/images/dessert/strudel.jpg
   teaser: /assets/images/dessert/strudel.jpg

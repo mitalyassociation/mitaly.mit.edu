@@ -1,5 +1,5 @@
 ---
-title: "Sbriciolata with ricotta and chocolate"
+title: "Sbriciolata con ricotta e cioccolato"
 header:
   image: /assets/images/dessert/sbriciolata.jpg
   teaser: /assets/images/dessert/sbriciolata.jpg
