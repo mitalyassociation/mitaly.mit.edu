@@ -7,24 +7,42 @@ permalink: /dessert/
 collection: dessert
 entries_layout: grid
 feature_row:
-  - image_path: /assets/images/dessert/branded/pane_nutella.jpg
-    alt: "Pane e Nutella"
-    title: "Pane e Nutella"
-  - image_path: /assets/images/dessert/branded/ferrero_rocher.jpg
-    alt: "Ferrero Rocher"
-    title: "Ferrero Rocher"
+  - image_path: /assets/images/dessert/branded/sfogliatelle.jpg
+    alt: "Sfogliatelle"
+    title: "Sfogliatelle"
   - image_path: /assets/images/dessert/branded/pandoro.jpg
     alt: "Pandoro"
     title: "Pandoro"
+  - image_path: /assets/images/dessert/branded/chiacchiere.jpg
+    alt: "Chiacchiere"
+    title: "Chiacchiere"
   - image_path: /assets/images/dessert/branded/panettone.jpg
     alt: "Panettone"
     title: "Panettone"
   - image_path: /assets/images/dessert/branded/pocket_coffee.jpg
     alt: "Pocket Coffee"
     title: "Pocket Coffee"
+  - image_path: /assets/images/dessert/branded/pane_nutella.jpg
+    alt: "Pane e Nutella"
+    title: "Pane e Nutella"
+  - image_path: /assets/images/dessert/branded/ferrero_rocher.jpg
+    alt: "Ferrero Rocher"
+    title: "Ferrero Rocher"
+  - image_path: /assets/images/dessert/branded/bigne.jpg
+    alt: "Bignè"
+    title: "Bignè"
+  - image_path: /assets/images/dessert/branded/crostata_ricotta.jpg
+    alt: "Crostata alla ricotta"
+    title: "Crostata alla ricotta"
+  - image_path: /assets/images/dessert/branded/cannoli.jpg
+    alt: "Cannoli"
+    title: "Cannoli"
   - image_path: /assets/images/dessert/branded/baci.jpg
     alt: "Baci"
     title: "Baci"
+  - image_path: /assets/images/dessert/branded/amaretti.jpg
+    alt: "Amaretti"
+    title: "Amaretti"
   - image_path: /assets/images/dessert/branded/golden_gallery.jpg
     alt: "Ferrero Golden Gallery"
     title: "Ferrero Golden Gallery"
