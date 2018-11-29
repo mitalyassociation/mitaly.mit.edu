@@ -12,7 +12,7 @@ layout: archive
 {% assign past_events = "" | split: ',' %}
 {% for event in site.posts %}
 {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
-{% if eventtime <= nowunix %}
+{% if eventtime < nowunix %}
 {% assign past_events = past_events | push:event %}
 {% endif %}
 {% endfor %}
@@ -20,7 +20,7 @@ layout: archive
 {% assign upcoming_events = "" | split: ',' %}
 {% for event in site.posts %}
 {% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
-{% if eventtime > nowunix %}
+{% if eventtime => nowunix %}
 {% assign upcoming_events = upcoming_events | push:event %}
 {% endif %}
 {% endfor %}
