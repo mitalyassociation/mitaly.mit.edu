@@ -17,6 +17,7 @@ repository               : "mitalyassociation/mitaly.mit.edu" # GitHub username/
 teaser                   : "/assets/images/mit.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 board_email: mitalyboard@mit.edu
 email: mitaly@mit.edu
+venmo: https://venmo.com/code?user_id=2399854768685056919
 
 # Publish future posts
 future: true

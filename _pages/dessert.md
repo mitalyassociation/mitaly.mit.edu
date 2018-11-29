@@ -16,7 +16,7 @@ Feel free to try them at home!
 
 Support this event by making a donation or buying the original MITaly T-shirt!
 
-<a href="{{ site.venmo }}" class="btn btn--primary"><i class="pf pf-venmo" aria-hidden="true" style="font-size: 36px"></i></a>
+<a href="{{ site.venmo }}" class="btn btn--primary"><i class="pf pf-venmo" aria-hidden="true" style="font-size: 37px"></i></a>
 
 ## Our homemade desserts with recipes
 
