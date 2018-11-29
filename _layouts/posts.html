@@ -8,18 +8,19 @@ layout: archive
 
 
 
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+{% capture nowunix %}{{'now' | date: '%F'}}{% endcapture %}
 {% assign past_events = "" | split: ',' %}
 {% for event in site.posts %}
-{% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
+{% capture eventtime %}{{event.date | date: '%F'}}{% endcapture %}
 {% if eventtime < nowunix %}
 {% assign past_events = past_events | push:event %}
 {% endif %}
 {% endfor %}
 
+
 {% assign upcoming_events = "" | split: ',' %}
 {% for event in site.posts %}
-{% capture eventtime %}{{event.date | date: '%s'}}{% endcapture %}
+{% capture eventtime %}{{event.date | date: '%F'}}{% endcapture %}
 {% if eventtime >= nowunix %}
 {% assign upcoming_events = upcoming_events | push:event %}
 {% endif %}
