@@ -22,7 +22,6 @@ addons:
 before_script:
   - echo 'America/EST' | sudo tee /etc/timezone
   - sudo dpkg-reconfigure --frontend noninteractive tzdata
-  - sudo ntpdate ntp.ubuntu.com
         
 script:
   # Production environment to get Google Analytics
