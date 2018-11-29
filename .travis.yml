@@ -18,7 +18,11 @@ addons:
     - sshpass
   ssh_known_hosts: athena.dialup.mit.edu
 
-
+# Fix time zone for events
+before_script:
+  - echo 'America/New York' | sudo tee /etc/timezone
+  - sudo dpkg-reconfigure --frontend noninteractive tzdata
+        
 script:
   # Production environment to get Google Analytics
   - JEKYLL_ENV=production bundle exec jekyll build
