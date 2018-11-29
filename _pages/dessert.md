@@ -18,6 +18,16 @@ Support this event by making a donation or buying the original MITaly T-shirt!
 
 <a href="{{ site.venmo }}" class="btn btn--primary"><i class="pf pf-venmo" aria-hidden="true" style="font-size: 37px"></i></a>
 
+<h2>Join us</h2>
+
+<h3>Facebook</h3>
+<p>Join our Facebook Group for all the updates on the upcoming events.</p>
+<a href="{{site.facebook_group}}" class="btn btn--facebook btn--large">Facebook Group</a>
+
+<h3>Mailing list</h3>
+
+<p>Join our mailing list by sending an empty email to <a href="mailto:mitaly-join@mit.edu">mitaly-join@mit.edu</a>.</p>
+
 ## Our homemade desserts with recipes
 
 
