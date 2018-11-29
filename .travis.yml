@@ -20,8 +20,9 @@ addons:
 
 # Fix time zone for events
 before_script:
-  - export TZ='America/New York'
-  - date
+  - echo 'America/EST' | sudo tee /etc/timezone
+  - sudo dpkg-reconfigure --frontend noninteractive tzdata
+  - sudo ntpdate ntp.ubuntu.com
         
 script:
   # Production environment to get Google Analytics
