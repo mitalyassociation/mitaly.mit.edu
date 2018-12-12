@@ -15,6 +15,7 @@ header:
 #     image_path: /assets/images/events/2018-12-13-christmas/img3.jpg
 #   - url: /assets/images/events/2018-12-13-christmas/img4.jpg
 #     image_path: /assets/images/events/2018-12-13-christmas/img4.jpg
+facebook_link: https://www.facebook.com/events/847556255617804/
 location: Muddy Charles Pub
 ---
 
