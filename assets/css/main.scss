@@ -285,3 +285,26 @@ form {
 #goog-wm-qt {
     border-width: 0px !important;
 }
+
+// Responsive calendar
+.responsiveCal {
+	position: relative;
+	padding-bottom: 70%;
+	@include breakpoint($small) {
+		padding-bottom: 50%;
+	}
+	@include breakpoint($medium) {
+		padding-bottom: 30%;
+	}
+	margin-bottom: 2em;
+	height: 0;
+	overflow: hidden;
+}
+
+.responsiveCal iframe {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
