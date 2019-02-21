@@ -40,14 +40,14 @@ google_site_verification : "aDNJGDIhBrNMeppEOfHwpm1Se699VhSS2P_7kWPvqoY"
 # Permanent link for the events (_posts/)
 permalink: /events/:categories/:year/:month/:day/:title/
 
-comments:
-  provider: "staticman_v2"
-staticman:
-  branch: "master"
-reCaptcha:
-  enabled: true
-  siteKey: "6LcKEGwUAAAAAJflM4Arn-BFigWNE5yt6FjGhJUe"
-  secret: "cOgB1cas1a9FiH1DsnGP1kafl46aY+GpyqUrWSpLsZqroOfuKGn6TBjZtUFjD+lISbjZnj8Pvj3zlN81q15Hx9Tn4l1QX/ooYYg+nSCI3O2EQwIbXnNd1gO04EQST3/F8Y8wUlCEoL3RZWMkN4a58bcMbOxsKe64+GGwCzjw4aw="
+# comments:
+#   provider: "staticman_v2"
+# staticman:
+#   branch: "master"
+# reCaptcha:
+#   enabled: true
+#   siteKey: "6LcKEGwUAAAAAJflM4Arn-BFigWNE5yt6FjGhJUe"
+#   secret: "cOgB1cas1a9FiH1DsnGP1kafl46aY+GpyqUrWSpLsZqroOfuKGn6TBjZtUFjD+lISbjZnj8Pvj3zlN81q15Hx9Tn4l1QX/ooYYg+nSCI3O2EQwIbXnNd1gO04EQST3/F8Y8wUlCEoL3RZWMkN4a58bcMbOxsKe64+GGwCzjw4aw="
 
 # Default Theme Settings
 #
