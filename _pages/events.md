@@ -11,5 +11,5 @@ header:
 
 Join us for the **weekly lunch** every Thursday at 1pm at the Whitehead Institute cafeteria! No registration required.
 
-Join us also for our **bi-weekly aperitivo** at 7pm on the first and third Tuesdays of each month. Check our calendar for more details!
+Join us also for our **bi-weekly aperitivo** 7pm at Cambridge Brewing Company on the first and third Tuesdays of each month.
 

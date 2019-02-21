@@ -20,14 +20,9 @@ location: Muddy Charles Pub
 ---
 
 
-Hello MITalians!
-Before we all leave the snowy shores of the East Coast for our sunny and warm (or not so much these days) motherland, let's get together to exchange the customary Holidays wishes.
+Before we all left the snowy shores of the East Coast for our sunny and warm (or not so much those days) motherland, we got together to exchange the customary Holidays wishes.
 
-We will meet at the Muddy Charles Pub this coming Thursday from 7:00pm onwards. As usual, remember to bring your valid 21+ ID (a US license or a passport)!
-
-Food will be served, as well as Pandori and Panettoni to fully dive into the Christmas atmosphere.
-
-We are waiting to see all of you!
+We met at the Muddy Charles Pub with lots of food, as well as Pandori and Panettoni.
 
 
 <!-- {% include gallery %} -->
