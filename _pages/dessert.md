@@ -61,8 +61,8 @@ Support this event by making a donation or buying the original MITaly T-shirt!
 <h2>Join us</h2>
 
 <h3>Facebook</h3>
-<p>Join our Facebook Group for all the updates on the upcoming events.</p>
-<a href="{{site.facebook_group}}" class="btn btn--facebook btn--large">Facebook Group</a>
+<p>Join our Facebook Page for all the updates on the upcoming events.</p>
+<a href="{{site.facebook_page}}" class="btn btn--facebook btn--large">Facebook Group</a>
 
 <h3>Mailing list</h3>
 
