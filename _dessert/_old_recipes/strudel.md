@@ -4,7 +4,7 @@ header:
   image: /assets/images/dessert/homemade/strudel.jpg
   teaser: /assets/images/dessert/homemade/strudel.jpg
 ---
-Recipe by Agnese Curatolo.
+Recipe by Adele Gabba.
 
 
 ## Ingredients

@@ -4,7 +4,7 @@ header:
   image: /assets/images/dessert/homemade/tenerina.jpg
   teaser: /assets/images/dessert/homemade/tenerina.jpg
 ---
-Recipe by Lorenzo De Santis.
+Recipe by Filippo Rossignoli.
 
 (Recipe for a round pan of 22 cm)
 
@@ -17,13 +17,9 @@ Recipe by Lorenzo De Santis.
 * Powdered sugar
 
 ## Preparation
-1. Finely chop the chocolate and melt it in a bain-marie, while stirring continuously. When the chocolate is fully melted, add the chopped butter and stir. When also the butter is melted, remove the mixture from the heat.
-2. While the chocolate and butter mixture is cooling down, separate the egg yolks from the egg whites in two different mixing bowls and add half of the sugar to each of them.
-3. Whisk the egg whites with sugar until stiff and put to one side.
-4. Whisk the egg yolks with sugar, then pour the chocolate and butter mixture while continuously whisking, until an homogeneous compound is obtained.
-5. Add the stiff egg whites to the chocolate mixture, and gently blend everything.
-6. Pour the flour and continue blending in order to obtain a smooth batter.
-7. Butter the baking tray and pour the batter inside.
-8. Heat the oven at 180 C (355 F) and cook for 30-35 minutes.
-9. Once out of the oven, let the cake cool down and sprinkle with powdered sugar.
+1. Begin by finely chop the chocolate, then transfer it into a metal bowl placed in a pan with water (possibly the water should not come into contact with the bottom of the bowl in which you have poured the chocolate) and melt it in a bain-marie, stirring constantly. Only when the chocolate is already melted, but not too hot, add the butter already cut into small pieces and let it melt too, continuing to stir.
+2. Let the chocolate and butter mixture cool, stirring it from time to time, and in the meantime separate the yolks from the whites in two different and capacious bowls. At this point, add half the sugar to the whites and whip them until the mixture is still and frothy.
+3. Pour the remaining sugar into the egg yolks, then whip the mixture at moderate speed until it becomes light and fluffy. At this point, with the whips still in action, pour the chocolate and butter mixture and keep beating until you get a uniform compound. At this point add the beaten egg whites a bit at a time stirring gently from bottom to top with a spatula. Add the flour and stir always with a spatula making delicate movements from the bottom upwards until a smooth and uniform compound is obtained.
+4. Pour the so obtained dough in a cake mold and bake in a preheated static oven at 180°C for 30-35 minutes.
+5. Once baked, let it cool slightly then remove from the tin and dust with icing sugar.
 

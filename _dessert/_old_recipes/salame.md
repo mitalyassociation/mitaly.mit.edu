@@ -5,7 +5,7 @@ header:
   teaser: /assets/images/dessert/homemade/salame.jpg
 ---
 
-Recipe by Lorenzo De Santis.
+Recipe by Alice Cosma.
 
 ## Ingredients
 * Dark chocolate: 200 g (0.44 lb)
