@@ -1,46 +1,34 @@
 - name: Gherardo Vita
-  role: Co-President
+  role: President
   position: PhD Student
   topic: Theoretical Particle Physics
 
-- name: Gianpaolo Gobbo
-  role: Co-President
-  position: Postdoctoral Researcher
-  topic: Computational Molecular Physics
-
 - name: Nicola Martino
-  role: PR
   position: Postdoctoral Researcher
   topic: Physics Engineering
 
-- name: Paolo Minelli
-  role: PR
-  position: PhD Student
-  topic: Nuclear Engineering
-
 - name: Bianca Giovanardi
-  role: Treasurer
   position: Postdoctoral Researcher
   topic: Computational Mechanics
 
 - name: Martina Dal Bello
-  role: PR
   position: Postdoctoral Researcher
   topic: Ecology
 
 - name: Bartolomeo Stellato
-  role: Fund raiser and web designer
   position: Postdoctoral Researcher
   topic: Operations Research
   website: https://stellato.io/
 
-- name: Sara Colombo
-  role: Fund raiser
+- name: Simone Bruno
+  position: PhD Student
+  topic: Synthetic Biology
+
+- name: Lorenzo De Santis
   position: Postdoctoral Researcher
-  topic: Design
+  topic: Solid-State Quantum Optics
 
 - name: Valentina Sumini
-  role: PR
   position: Postdoctoral Researcher
   topic: Architecture
   website: https://www.valentinasumini.com/

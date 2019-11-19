@@ -1,7 +1,5 @@
 # MITaly Website
 
-[![Build Status](https://travis-ci.org/mitalyassociation/mitaly.mit.edu.svg?branch=master)](https://travis-ci.org/mitalyassociation/mitaly.mit.edu)
-
 Website for the MITaly Italian Association at MIT.
 
 Built with [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes/).
