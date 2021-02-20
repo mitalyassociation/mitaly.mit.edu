@@ -6,18 +6,17 @@ Built with [Jekyll](https://jekyllrb.com/) and [Minimal Mistakes](https://github
 
 Ask [Bartolomeo Stellato](bartolomeo.stellato@gmail.com) for permission to the deploy website.
 
-# TODO
-- [ ] Add README details on how to
-  - [ ] Create events
-  - [ ] Add pages
-  - [ ] Change board members
+# Making changes
 
-
-# Guide how to make edits to the website
-
-
-# Build
+## Run locally
 
 ```
 bundle exec jekyll serve
 ```
+
+
+## Deploy to MIT server
+```
+sh deploy.sh
+```
+

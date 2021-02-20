@@ -1,34 +1,19 @@
-- name: Gherardo Vita
+- name: Simone Bruno
   role: President
   position: PhD Student
-  topic: Theoretical Particle Physics
+  topic: Synthetic Biology
 
 - name: Nicola Martino
   position: Postdoctoral Researcher
   topic: Physics Engineering
 
-- name: Bianca Giovanardi
-  position: Postdoctoral Researcher
-  topic: Computational Mechanics
-
 - name: Martina Dal Bello
   position: Postdoctoral Researcher
   topic: Ecology
-
-- name: Bartolomeo Stellato
-  position: Postdoctoral Researcher
-  topic: Operations Research
-  website: https://stellato.io/
-
-- name: Simone Bruno
-  position: PhD Student
-  topic: Synthetic Biology
+  website: https://martinadalbello.com/
 
 - name: Lorenzo De Santis
   position: Postdoctoral Researcher
   topic: Solid-State Quantum Optics
 
-- name: Valentina Sumini
-  position: Postdoctoral Researcher
-  topic: Architecture
-  website: https://www.valentinasumini.com/
+
